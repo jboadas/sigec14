@@ -1,0 +1,237 @@
+<%= error_messages_for 'wfcvolado' %>
+
+<!--[form:wfcvolado]-->
+<p><b><label>Confirmar datos de Pierna</label></b></p>
+
+<p><label for="wfcvolado_cabequipo_id">Equipo</label>
+<%= select('wfcvolado', 'cabequipo_id', @equipos.collect {|equipo| [equipo.nombre, equipo.id]}) %></p>
+
+<p><label for="wfcvolado_stfinvuelo">Se realizo el vuelo ?</label>
+<%= select('wfcvolado', 'stfinvuelo', @status) %></p>
+
+<p><label for="wfcvolado_logbook"> Numero Hoja Log</label>
+<%= text_field 'wfcvolado', 'logbook'  %></p>
+
+<HR>
+<label>Ruta</label>
+<HR>
+
+<p><label for="wfcvolado_origen">Origen</label>
+<%= text_field 'wfcvolado', 'origen'  %></p>
+
+<p><label for="wfcvolado_destino">Destino</label>
+<%= text_field 'wfcvolado', 'destino'  %></p>
+
+<HR>
+<label>Horas de Vuelo</label>
+<HR>
+
+
+<p><label>Fecha Origen</label></p>
+
+<p><label for="wfcvolado_diaini">Dia</label>
+<%= select('wfcvolado', 'diaini', @dias) %>
+
+<label for="wfcvolado_mesini">Mes</label>
+<%= select('wfcvolado', 'mesini', @meses) %>
+
+<label for="wfcvolado_anoini">Año</label>
+<%= select('wfcvolado', 'anoini', @anios) %></p>
+
+<p><label for="wfcvolado_horaini">Hora</label>
+<%= select('wfcvolado', 'horaini', @horas) %>
+
+<label for="wfcvolado_minini">Minutos</label>
+<%= select('wfcvolado', 'minini', @minutos) %></p>
+
+<p><label>Fecha Destino</label></p>
+
+<p><label for="wfcvolado_diafin">Dia</label>
+<%= select('wfcvolado', 'diafin', @dias) %>
+
+<label for="wfcvolado_mesfin">Mes</label>
+<%= select('wfcvolado', 'mesfin', @meses) %>
+
+<label for="wfcvolado_anofin">Año</label>
+<%= select('wfcvolado', 'anofin', @anios) %></p>
+
+<p><label for="wfcvolado_horafin">Hora</label>
+<%= select('wfcvolado', 'horafin', @horas) %>
+
+<label for="wfcvolado_minfin">Minutos</label>
+<%= select('wfcvolado', 'minfin', @minutos) %></p>
+
+<HR>
+<label>Horas Bloque</label>
+<HR>
+
+<p><label>Fecha Origen Hora Bloque</label></p>
+
+<p><label for="wfcvolado_bdiaini">Dia</label>
+<%= select('wfcvolado', 'bdiaini', @dias) %>
+
+<label for="wfcvolado_bmesini">Mes</label>
+<%= select('wfcvolado', 'bmesini', @meses) %>
+
+<label for="wfcvolado_banoini">Año</label>
+<%= select('wfcvolado', 'banoini', @anios) %></p>
+
+<p><label for="wfcvolado_bhoraini">Hora</label>
+<%= select('wfcvolado', 'bhoraini', @horas) %>
+
+<label for="wfcvolado_bminini">Minutos</label>
+<%= select('wfcvolado', 'bminini', @minutos) %></p>
+
+<p><label>Fecha Destino Hora Bloque</label></p>
+
+<p><label for="wfcvolado_bdiafin">Dia</label>
+<%= select('wfcvolado', 'bdiafin', @dias) %>
+
+<label for="wfcvolado_bmesfin">Mes</label>
+<%= select('wfcvolado', 'bmesfin', @meses) %>
+
+<label for="wfcvolado_banofin">Año</label>
+<%= select('wfcvolado', 'banofin', @anios) %></p>
+
+<p><label for="wfcvolado_bhorafin">Hora</label>
+<%= select('wfcvolado', 'bhorafin', @horas) %>
+
+<label for="wfcvolado_bminfin">Minutos</label>
+<%= select('wfcvolado', 'bminfin', @minutos) %></p>
+
+
+
+<HR>
+<p><label for="wfcvolado_capitan">Capitan</label>
+<%= select('wfcvolado', 'capitan', [['Ninguno', ' ']]+@caps.collect {|cap| [cap.nombres+' '+cap.apellidos, cap.id]}) %></p>
+
+<p><label for="wfcvolado_copiloto">Copiloto</label>
+<%= select('wfcvolado', 'copiloto', [['Ninguno', ' ']]+@caps.collect {|cap| [cap.nombres+' '+cap.apellidos, cap.id]}) %></p>
+
+<p><label for="wfcvolado_jefecab">Jefe de Cabina</label>
+<%= select('wfcvolado', 'jefecab', [['Ninguno', ' ']]+@tris.collect {|tri| [tri.nombres+' '+tri.apellidos, tri.id]}) %></p>
+
+<p><label for="wfcvolado_trip01">Segundo Tripulante</label>
+<%= select('wfcvolado', 'trip01', [['Ninguno', ' ']]+@tris.collect {|tri| [tri.nombres+' '+tri.apellidos, tri.id]}) %></p>
+
+<p><label for="wfcvolado_trip02">Tercer Tripulante</label>
+<%= select('wfcvolado', 'trip02', [['Ninguno', ' ']]+@tris.collect {|tri| [tri.nombres+' '+tri.apellidos, tri.id]}) %></p>
+
+<p><label for="wfcvolado_trip03">Cuarto Tripulante</label>
+<%= select('wfcvolado', 'trip03', [['Ninguno', ' ']]+@tris.collect {|tri| [tri.nombres+' '+tri.apellidos, tri.id]}) %></p>
+
+<p><label for="wfcvolado_trip04">Quinto Tripulante</label>
+<%= select('wfcvolado', 'trip04', [['Ninguno', ' ']]+@tris.collect {|tri| [tri.nombres+' '+tri.apellidos, tri.id]}) %></p>
+
+<p><label for="wfcvolado_desp">Despachador</label>
+<%= select('wfcvolado', 'desp', [['Ninguno', ' ']]+@desps.collect {|des| [des.nombres+' '+des.apellidos, des.id]}) %></p>
+
+<p><label for="wfcvolado_mec">Mecanico</label>
+<%= select('wfcvolado', 'mec', [['Ninguno', ' ']]+@mecs.collect {|mec| [mec.nombres+' '+mec.apellidos, mec.id]}) %></p>
+
+<HR>
+<p><label>FUEL</label></p>
+<HR>
+
+<p><label for="wfcvolado_fuelbefore">Before Start</label>
+<%= text_field 'wfcvolado', 'fuelbefore'  %></p>
+
+<p><label for="wfcvolado_fuelafter">After Shutdown</label>
+<%= text_field 'wfcvolado', 'fuelafter'  %></p>
+
+<p><label for="wfcvolado_fuelused">Used</label>
+<%= text_field 'wfcvolado', 'fuelused'  %></p>
+
+<p><label for="wfcvolado_fueladded">Added</label>
+<%= text_field 'wfcvolado', 'fueladded'  %>
+
+<label for="wfcvolado_fuelco">Co.</label>
+<%= text_field 'wfcvolado', 'fuelco'  %></p>
+
+<p><label for="wfcvolado_fuelunidad">-</label>
+<%= select('wfcvolado', 'fuelunidad', @combus) %></p>
+
+<p><label for="wfcvolado_fuelreceipt">Receipt</label>
+<%= text_field 'wfcvolado', 'fuelreceipt'  %>
+
+<label for="wfcvolado_receiptco">Co.</label>
+<%= text_field 'wfcvolado', 'receiptco'  %></p>
+
+<HR>
+<p><label>PARAMETERS</label></p>
+<HR>
+
+<p><label for="wfcvolado_pias">IAS</label>
+<%= text_field 'wfcvolado', 'pias'  %></p>
+
+<p><label for="wfcvolado_match">MATCH</label>
+<%= text_field 'wfcvolado', 'match'  %></p>
+
+<p><label for="wfcvolado_alt">ALT</label>
+<%= text_field 'wfcvolado', 'alt'  %></p>
+
+<p><label for="wfcvolado_tatrat">TAT/RAT</label>
+<%= text_field 'wfcvolado', 'tatrat'  %></p>
+
+<HR>
+<p><label>ENG # 1   -   -   -   ENG # 2</label></p>
+<HR>
+
+<p><label for="wfcvolado_e1epr">EPR</label>
+<%= text_field 'wfcvolado', 'e1epr'  %>
+<%= text_field 'wfcvolado', 'e2epr'  %></p>
+
+<p><label for="wfcvolado_e1n1">N1</label>
+<%= text_field 'wfcvolado', 'e1n1'  %>
+<%= text_field 'wfcvolado', 'e2n1'  %></p>
+
+<p><label for="wfcvolado_e1egt">EGT</label>
+<%= text_field 'wfcvolado', 'e1egt'  %>
+<%= text_field 'wfcvolado', 'e2egt'  %></p>
+
+<p><label for="wfcvolado_e1n2">N2</label>
+<%= text_field 'wfcvolado', 'e1n2'  %>
+<%= text_field 'wfcvolado', 'e2n2'  %></p>
+
+<p><label for="wfcvolado_e1ff">FF</label>
+<%= text_field 'wfcvolado', 'e1ff'  %>
+<%= text_field 'wfcvolado', 'e2ff'  %></p>
+
+<p><label for="wfcvolado_e1oilq">OIL Q.</label>
+<%= text_field 'wfcvolado', 'e1oilq'  %>
+<%= text_field 'wfcvolado', 'e2oilq'  %></p>
+
+<p><label for="wfcvolado_e1oilp">OIL P.</label>
+<%= text_field 'wfcvolado', 'e1oilp'  %>
+<%= text_field 'wfcvolado', 'e2oilp'  %></p>
+
+<p><label for="wfcvolado_e1oilt">OIL T.</label>
+<%= text_field 'wfcvolado', 'e1oilt'  %>
+<%= text_field 'wfcvolado', 'e2oilt'  %></p>
+
+<HR>
+
+<p><label for="wfcvolado_landings">Landings</label>
+<%= text_field 'wfcvolado', 'landings'  %></p>
+<p><label for="wfcvolado_maintlog">Maint. Log #</label>
+<%= text_field 'wfcvolado', 'maintlog'  %></p>
+
+<HR>
+<p><label>PASSENGERS</label></p>
+<HR>
+
+<p><label for="wfcvolado_pastot">Ttl pax.</label>
+<%= text_field 'wfcvolado', 'pastot'  %></p>
+<p><label for="wfcvolado_pasadu">Adu.</label>
+<%= text_field 'wfcvolado', 'pasadu'  %></p>
+<p><label for="wfcvolado_paschi">Chi.</label>
+<%= text_field 'wfcvolado', 'paschi'  %></p>
+<p><label for="wfcvolado_pasinf">Inf.</label>
+<%= text_field 'wfcvolado', 'pasinf'  %></p>
+<p><label for="wfcvolado_pasfree">Free</label>
+<%= text_field 'wfcvolado', 'pasfree'  %></p>
+
+<p><label for="wfcvolado_observaciones">REMARKS</label><br/>
+<%= text_area 'wfcvolado', 'observaciones'  %></p>
+
+<!--[eoform:wfcvolado]-->

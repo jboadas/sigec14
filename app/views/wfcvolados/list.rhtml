@@ -1,0 +1,20 @@
+<table class="table table-striped">
+  <tr>
+    <th><%= "LogBook#" %></th>
+    <th><%= "Fecha" %></th>
+    <th><%= "Ruta" %></th>
+  </tr>
+
+  
+<% for wfcvolado in @wfcvolados %>
+  <tr>
+    <td><%= wfcvolado.logbook %></td>
+    <td><%= wfcvolado.diaini<10? "0"+wfcvolado.diaini.to_s : wfcvolado.diaini %>/<%=  wfcvolado.mesini<10? "0"+wfcvolado.mesini.to_s : wfcvolado.mesini %>/<%= wfcvolado.anoini %>
+        - <%= wfcvolado.diafin<10? "0"+wfcvolado.diafin.to_s : wfcvolado.diafin %>/<%=  wfcvolado.mesfin<10? "0"+wfcvolado.mesfin.to_s : wfcvolado.mesfin %>/<%= wfcvolado.anofin %>   </td>
+    <td><%= wfcvolado.origen %> / <%= wfcvolado.destino %> </td>
+    <td><%= link_to 'Detalle', :action => 'show', :id => wfcvolado %></td>
+    <td><%= link_to 'Editar', { :controller => 'wfcvuelos', :action => 'confirmar', :id => wfcvolado }, :class => 'btn btn-default' %></td>
+  </tr>
+<% end %>
+</table>
+

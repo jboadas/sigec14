@@ -1,0 +1,39 @@
+<h1 class="page-header">Hojas Log</h1>
+<% form_tag :action => 'listfiltrada' do %>
+
+      <div class="form-group">
+        <label for="wfcvolado_cabequipo_id">Equipo</label>
+        <%= select( 'wfcvolado', 'cabequipo_id' , @equipos.collect {|eqp| [eqp.nombre, eqp.id]}, {},{:class=>"form-control"}) %>
+      </div>
+        <p><label class="page-header">Desde</label></p>
+        <div class="form-group">
+          <div class="col-sm-6">
+          <label for="wfcvolado_mesini">Mes</label>
+          <%= select('wfcvolado', 'mesini', @meses, {},{:class=>"form-control"}) %>
+          </div>
+          <div class="col-sm-6">
+          <label for="wfcvolado_anoini">Año</label>
+          <%= select('wfcvolado', 'anoini', @anios, {},{:class=>"form-control"}) %>
+          </div>
+        </div>
+
+        <p><label class="page-header">Hasta</label></p>
+
+        <div class="form-group">
+          <div class="col-sm-6">
+          <label for="wfcvolado_mesfin">Mes</label>
+          <%= select('wfcvolado', 'mesfin', @meses, {},{:class=>"form-control"}) %>
+          </div>
+          <div class="col-sm-6">
+
+          <label for="wfcvolado_anofin">Año</label>
+          <%= select('wfcvolado', 'anofin', @anios, {},{:class=>"form-control"}) %>
+          </div>
+        </div>
+        
+        <p><label class="page-header"></label></p>
+        <div class="page-header form-group">
+          <%= submit_tag "Buscar",{:class=>"btn btn-default"} %>
+        </div>
+
+<% end %>

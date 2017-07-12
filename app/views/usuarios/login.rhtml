@@ -1,0 +1,13 @@
+<% form_tag :action => 'send_login' do %>
+	<%= error_messages_for 'usuario' %>
+<div class="form-group">
+  <label for="usuario_login">USUARIO </label>
+  <input id="usuario_login" name="usuario[login]" class="form-control" placeholder="Usuario" type="text" />
+</div>
+<div class="form-group">
+  <label for="usuario_password">PASSWORD </label>
+  <input id="usuario_password" name="usuario[password]" class="form-control" placeholder="Usuario" type="password" />
+</div>
+<input class="btn btn-primary" name="commit" type="submit" value="Entrar" />
+<% end %>
+

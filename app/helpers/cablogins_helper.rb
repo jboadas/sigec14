@@ -1,0 +1,2 @@
+module CabloginsHelper
+end

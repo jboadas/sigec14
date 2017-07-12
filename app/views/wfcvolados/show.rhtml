@@ -1,0 +1,170 @@
+<%= link_to 'Editar', { :controller => 'wfcvuelos', :action => 'confirmar', :id => @wfcvolado.id }, :class => 'btn btn-default' %>
+<p>
+  <b>LogBook #</b> <%=h @wfcvolado.logbook %>
+</p>
+<table class="table table-bordered">
+  <tr>
+    <td><b>Flight # ----</b></td>
+    <td><b>From:</b><%= @wfcvolado.origen %></td>
+    <td><b>To:</b><%= @wfcvolado.destino %></td>
+  </tr>
+  <tr>
+    <td><b>Time</b></td>
+    <td><b>Block</b></td>
+    <td><b>Flight</b></td>
+  </tr>
+  <tr>
+    <td><b>Arrivals</b></td>
+    <td><%= @wfcvolado.bdiafin %>/<%= @wfcvolado.bmesfin %>/<%= @wfcvolado.banofin %> <%= @wfcvolado.bhorafin %>:<%= @wfcvolado.bminfin %></td>
+    <td><%= @wfcvolado.diafin %>/<%= @wfcvolado.mesfin %>/<%= @wfcvolado.anofin %> <%= @wfcvolado.horafin %>:<%= @wfcvolado.minfin %></td>
+  </tr>
+  <tr>
+    <td><b>Departure</b></td>
+    <td><%= @wfcvolado.bdiaini %>/<%= @wfcvolado.bmesini %>/<%= @wfcvolado.banoini %> <%= @wfcvolado.bhoraini %>:<%= @wfcvolado.bminini %></td>
+    <td><%= @wfcvolado.diaini %>/<%= @wfcvolado.mesini %>/<%= @wfcvolado.anoini %> <%= @wfcvolado.horaini %>:<%= @wfcvolado.minini %></td>
+  </tr>
+</table>
+<table class="table table-bordered">
+  <tr>
+    <td colspan="4"><b>FUEL</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Before Start</b></td>
+    <td colspan="2"><%= @wfcvolado.fuelbefore %></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>After Shutdown</b></td>
+    <td colspan="2"><%= @wfcvolado.fuelafter %></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>USED</b></td>
+    <td colspan="2"><%= @wfcvolado.fuelused %></td>
+  </tr>
+  <tr>
+    <td><b>ADDED</b></td>
+    <td><%= @wfcvolado.fueladded %></td>
+    <td><b>CO.</b></td>
+    <td><%= @wfcvolado.fuelco %></td>
+  </tr>
+  <tr>
+    <td><b>Receipt</b></td>
+    <td><%= @wfcvolado.fuelreceipt %></td>
+    <td><b>CO.</b></td>
+    <td><%= @wfcvolado.receiptco %></td>
+  </tr>
+</table>
+
+<table class="table table-bordered">
+  <tr>
+    <td colspan="2"><b>PARAMETERS</b></td>
+  </tr>
+  <tr>
+    <td><b>IAS</b></td>
+    <td><%= @wfcvolado.pias %></td>
+  </tr>
+  <tr>
+    <td><b>MATCH#</b></td>
+    <td><%= @wfcvolado.match %></td>
+  </tr>
+  <tr>
+    <td><b>ALT</b></td>
+    <td><%= @wfcvolado.alt %></td>
+  </tr>
+  <tr>
+    <td><b>TAT/RAT</b></td>
+    <td><%= @wfcvolado.tatrat %></td>
+  </tr>
+</table>
+
+<table class="table table-bordered">
+  <tr>
+    <td><b>---</b></td>
+    <td><b>ENG1</b></td>
+    <td><b>ENG2</b></td>
+  </tr>
+  <tr>
+    <td><b>EPR</b></td>
+    <td><%= @wfcvolado.e1epr %></td>
+    <td><%= @wfcvolado.e2epr %></td>
+  </tr>
+  <tr>
+    <td><b>N1</b></td>
+    <td><%= @wfcvolado.e1n1 %></td>
+    <td><%= @wfcvolado.e2n1 %></td>
+  </tr>
+  <tr>
+    <td><b>EGT</b></td>
+    <td><%= @wfcvolado.e1egt %></td>
+    <td><%= @wfcvolado.e2egt %></td>
+  </tr>
+  <tr>
+    <td><b>N2</b></td>
+    <td><%= @wfcvolado.e1n2 %></td>
+    <td><%= @wfcvolado.e2n2 %></td>
+  </tr>
+  <tr>
+    <td><b>FF</b></td>
+    <td><%= @wfcvolado.e1ff %></td>
+    <td><%= @wfcvolado.e2ff %></td>
+  </tr>
+  <tr>
+    <td><b>OIL Q.</b></td>
+    <td><%= @wfcvolado.e1oilq %></td>
+    <td><%= @wfcvolado.e2oilq %></td>
+  </tr>
+  <tr>
+    <td><b>OIL P.</b></td>
+    <td><%= @wfcvolado.e1oilp %></td>
+    <td><%= @wfcvolado.e2oilp %></td>
+  </tr>
+  <tr>
+    <td><b>OIL T.</b></td>
+    <td><%= @wfcvolado.e1oilt %></td>
+    <td><%= @wfcvolado.e2oilt %></td>
+  </tr>
+</table>
+
+<table class="table table-bordered">
+  <tr>
+    <td><b>Landings</b></td>
+    <td colspan="2"><b>If any reports</b></td>
+  </tr>
+  <tr>
+    <td><%= @wfcvolado.landings %></td>
+    <td><b>Maint. Log #</b></td>
+    <td><%= @wfcvolado.maintlog %></td>
+  </tr>
+</table>
+<table class="table table-bordered">
+  <tr>
+    <td colspan="5"><b>PASSENGERS</b></td>
+  </tr>
+  <tr>
+    <td><b>Ttl pax.</b></td>
+    <td><b>Adu.</b></td>
+    <td><b>Chi.</b></td>
+    <td><b>Inf.</b></td>
+    <td><b>Free.</b></td>
+  </tr>
+  <tr>
+    <td><%= @wfcvolado.pastot %></td>
+    <td><%= @wfcvolado.pasadu %></td>
+    <td><%= @wfcvolado.paschi %></td>
+    <td><%= @wfcvolado.pasinf %></td>
+    <td><%= @wfcvolado.pasfree %></td>
+  </tr>
+</table>
+<p>
+<table class="table table-bordered">
+  <tr>
+    <td>
+      <b>REMARKS</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <%= @wfcvolado.observaciones %>
+    </td>
+  </tr>
+</table>
+</p>

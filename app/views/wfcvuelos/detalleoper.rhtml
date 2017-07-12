@@ -1,0 +1,26 @@
+<span>Equipo: <%= @matricula  %> Total horas de vuelo: </span>
+<b class="alert alert-danger"><%= @tothor %> : <%= @totmin %> </b>
+<span>Desde la fecha: <b><%= @showfeini %></b></span>
+<span>Hasta la fecha: <b><%= @showfefin %></b></span>
+<h2>Detalle:</h2>
+<table class="table table-striped">
+  <tr>
+    <th>#Hoja Log</th>
+    <th>Ruta</th>
+    <th>Despegue</th>
+    <th>Aterrizaje</th>
+    <th>Horas Vuelo</th>
+    <th>Acumulado</th>
+  </tr>
+<% for repoper in @repopers -%>
+  <tr>
+    <td><%=  repoper[0] %></td><!-- Numero de hoja log -->
+    <td><%=  repoper[1]  %></td><!--Ruta  -->
+    <td><%=  repoper[2]  %></td><!--Fecha y Hora de despegue  -->
+    <td><%=  repoper[3]  %></td><!-- Fecha y Hora de Aterrizaje -->
+    <td><%=  repoper[4] %></td><!-- Horas de Vuelo -->
+    <td><%=  repoper[5] %></td><!-- Acumulado Horas de Vuelo -->
+  </tr>
+<% end -%>
+</table>
+<!--<%= button_to 'Imprimir PDF', :action => 'genpdf', :tripulantes => @wfctripulantes %>-->

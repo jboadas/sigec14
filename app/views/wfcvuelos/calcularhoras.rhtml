@@ -1,0 +1,137 @@
+<%= button_to 'Imprimir PDF', { :action => 'genpdf', :tripulantes => @wfctripulantes }, :class => "btn btn-default" %>
+<table class="table table-striped">
+<% if (@errores != nil && @errores.length > 0) %>
+  <tr>
+    <td class="danger" colspan="9">Los siguientes logbooks presentan errores en la fecha y seran excluidos del calculo de horas</td>
+  </tr>
+  <% for error in @errores %>
+    <tr>
+      <th>#LOGBOOK</th>
+      <th>Dia Inicio</th>
+      <th>Mes Inicio</th>
+      <th>Año Inicio</th>
+      <th>Hora Inicio</th>
+      <th>Min Inicio</th>
+      <th>Origen</th>
+      <th>Destino</th>
+      <th>Link</th>
+    </tr>
+    <tr>
+      <td><%=  error.logbook %> </td>
+      <td><%=  error.diaini %> </td>
+      <td><%=  error.mesini %> </td>
+      <td><%=  error.anoini %> </td>
+      <td><%=  error.horaini %> </td>
+      <td><%=  error.minini %> </td>
+      <td><%=  error.origen %> </td>
+      <td><%=  error.destino %> </td>
+      <td><%= link_to 'Editar', { :controller => 'wfcvuelos', :action => 'confirmar', :id => error.id }, :class => 'btn btn-default' %></td>
+    </tr>
+  <%end%>
+</table>
+<% end %>
+
+<p><b>Reporte de horas de Vuelo</b></p>
+<p> Desde: <%= ancer(@intdiaini) %>/<%= ancer(@intmesini) %>/<%= ancer(@intanoini) %> </p>
+<p> Hasta: <%= ancer(@intdiafin) %>/<%= ancer(@intmesfin) %>/<%= ancer(@intanofin) %> </p>
+
+<!--
+<table class="table table-striped">
+  <tr>
+    <th>Tripulante</th>
+    <th>Licencia</th>
+    <th>Horas de Vuelo</th>
+    <th>Detalle</th>
+  </tr>
+
+<% for wfctripulante in @wfctripulantes -%>
+  <%  if ((wfctripulante.horas > 0) || (wfctripulante.minutos > 0)) -%>
+      <tr>
+        <td><%= wfctripulante.nombres %> <%= wfctripulante.apellidos%> </td>
+        <td><%= wfctripulante.cedula %></td>
+        <td><%= ancer(wfctripulante.horas) %> : <%= ancer(wfctripulante.minutos) %> </td>
+        <td><%= button_to 'Detalle',  { :action => 'detalle', :id => wfctripulante, :anoini => @intanoini, :mesini => @intmesini, :diaini => @intdiaini, :anofin => @intanofin, :mesfin => @intmesfin, :diafin => @intdiafin }, :class => 'btn btn-default' %></td>
+      </tr>
+  <% end -%>
+<% end -%>
+</table>
+-->
+<table class="table table-striped">
+  <tr>
+    <th>Pilotos</th>
+    <th>Licencia</th>
+    <th>Horas de Vuelo</th>
+    <th>Detalle</th>
+  </tr>
+
+<% for piloto in @pilotos -%>
+  <%  if ((piloto.horas > 0) || (piloto.minutos > 0)) -%>
+      <tr>
+        <td><%= piloto.nombres %> <%= piloto.apellidos%> </td>
+        <td><%= piloto.cedula %></td>
+        <td><%= ancer(piloto.horas) %> : <%= ancer(piloto.minutos) %> </td>
+        <td><%= button_to 'Detalle',  { :action => 'detalle', :id => piloto, :anoini => @intanoini, :mesini => @intmesini, :diaini => @intdiaini, :anofin => @intanofin, :mesfin => @intmesfin, :diafin => @intdiafin }, :class => 'btn btn-default' %></td>
+      </tr>
+  <% end -%>
+<% end -%>
+</table>
+
+<table class="table table-striped">
+  <tr>
+    <th>Tripulantes</th>
+    <th>Licencia</th>
+    <th>Horas de Vuelo</th>
+    <th>Detalle</th>
+  </tr>
+
+<% for tripulante in @tripulantes -%>
+  <%  if ((tripulante.horas > 0) || (tripulante.minutos > 0)) -%>
+      <tr>
+        <td><%= tripulante.nombres %> <%= tripulante.apellidos%> </td>
+        <td><%= tripulante.cedula %></td>
+        <td><%= ancer(tripulante.horas) %> : <%= ancer(tripulante.minutos) %> </td>
+        <td><%= button_to 'Detalle',  { :action => 'detalle', :id => tripulante, :anoini => @intanoini, :mesini => @intmesini, :diaini => @intdiaini, :anofin => @intanofin, :mesfin => @intmesfin, :diafin => @intdiafin }, :class => 'btn btn-default' %></td>
+      </tr>
+  <% end -%>
+<% end -%>
+</table>
+
+<table class="table table-striped">
+  <tr>
+    <th>Despachadores</th>
+    <th>Licencia</th>
+    <th>Horas de Vuelo</th>
+    <th>Detalle</th>
+  </tr>
+
+<% for despachador in @despachadores -%>
+  <%  if ((despachador.horas > 0) || (despachador.minutos > 0)) -%>
+      <tr>
+        <td><%= despachador.nombres %> <%= despachador.apellidos%> </td>
+        <td><%= despachador.cedula %></td>
+        <td><%= ancer(despachador.horas) %> : <%= ancer(despachador.minutos) %> </td>
+        <td><%= button_to 'Detalle',  { :action => 'detalle', :id => despachador, :anoini => @intanoini, :mesini => @intmesini, :diaini => @intdiaini, :anofin => @intanofin, :mesfin => @intmesfin, :diafin => @intdiafin }, :class => 'btn btn-default' %></td>
+      </tr>
+  <% end -%>
+<% end -%>
+</table>
+
+<table class="table table-striped">
+  <tr>
+    <th>Mecanicos</th>
+    <th>Licencia</th>
+    <th>Horas de Vuelo</th>
+    <th>Detalle</th>
+  </tr>
+
+<% for mecanico in @mecanicos -%>
+  <%  if ((mecanico.horas > 0) || (mecanico.minutos > 0)) -%>
+      <tr>
+        <td><%= mecanico.nombres %> <%= mecanico.apellidos%> </td>
+        <td><%= mecanico.cedula %></td>
+        <td><%= ancer(mecanico.horas) %> : <%= ancer(mecanico.minutos) %> </td>
+        <td><%= button_to 'Detalle',  { :action => 'detalle', :id => mecanico, :anoini => @intanoini, :mesini => @intmesini, :diaini => @intdiaini, :anofin => @intanofin, :mesfin => @intmesfin, :diafin => @intdiafin }, :class => 'btn btn-default' %></td>
+      </tr>
+  <% end -%>
+<% end -%>
+</table>

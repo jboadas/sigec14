@@ -1,0 +1,18 @@
+<table class="table table-striped">
+      <tr>
+              <th><%= "LogBook" %></th>
+              <th><%= "Despegue" %></th>
+              <th><%= "Aterrizaje" %></th>
+              <th><%= "Ruta" %></th>
+      </tr>
+
+      <% for wfcvolado in @wfcvolados %>
+              <tr>
+                      <td><%=wfcvolado.logbook%></td>
+                      <td><%=ancer(wfcvolado.diaini)%>/<%=ancer(wfcvolado.mesini)%>/<%= wfcvolado.anoini%>-<%= ancer(wfcvolado.horaini)%>:<%= ancer(wfcvolado.minini)%></td>
+                      <td><%=ancer(wfcvolado.diafin)%>/<%=ancer(wfcvolado.mesfin)%>/<%= wfcvolado.anofin%>-<%= ancer(wfcvolado.horafin)%>:<%= ancer(wfcvolado.minfin)%> </td>
+                      <td><%=wfcvolado.origen%>/<%=wfcvolado.destino%></td>
+                      <td><%= button_to 'Confirmar',  {:action => 'confirmar', :id => wfcvolado }, :class => 'btn btn-default' %></td>
+              </tr>
+      <% end %>
+</table>

@@ -1,0 +1,7 @@
+<% form_tag :action => 'detallemant' do %>
+<div class="form-group">
+        <label for="wfcvolado_cabequipo_id">Equipo</label>
+        <%= select( 'wfcvolado', 'cabequipo_id' , @equipos.collect {|eqp| [eqp.nombre, eqp.id]}, {:prompt => 'Seleccione un equipo'},{:class=>"form-control"}) %>
+</div>
+  <%= submit_tag "Calcular", :class => 'btn btn-default' %>
+<% end %>

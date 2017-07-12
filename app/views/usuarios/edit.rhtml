@@ -1,0 +1,7 @@
+<% form_tag :action => 'update', :id => @usuario do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Guardar' %>
+<% end %>
+
+<%= button_to 'Mostrar', :action => 'show', :id => @usuario %>
+<%= button_to 'Listar', :action => 'list' %>

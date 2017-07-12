@@ -1,0 +1,17 @@
+<%= link_to 'Nuevo Usuario', { :action => 'new' }, :class => 'btn btn-default' %>
+<table class="table table-striped">
+  <tr>
+    <th><%= "Nombres" %></th>
+    <th><%= "Apellidos" %></th>
+</tr>
+  
+<% for usuario in @usuarios %>
+  <tr>
+    <td><%= usuario.apellidos %></td>
+    <td><%= usuario.nombres %></td>
+    <td><a href="/usuarios/show/<%= usuario.id  %>" class="btn btn-default">Mostrar</a></td>
+    <td><a href="/usuarios/edit/<%= usuario.id  %>" class="btn btn-default">Editar</a></td>
+    <td><%= link_to 'Borrar', { :action => 'destroy', :id => usuario }, :confirm => 'Esta ud. seguro?', :method => :post, :class => 'btn btn-default' %></td>
+  </tr>
+<% end %>
+</table>

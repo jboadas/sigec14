@@ -1,0 +1,544 @@
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+Thu Jan 16 22:49:43 -0430 2014: HTTP parse error, malformed request (127.0.0.1): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Thu Jan 16 22:49:43 -0430 2014: REQUEST DATA: "\001default / HTTP/1.1\r\nHost: www.perlaairlines.com\r\nX_FORWARDED_PROTO: https\r\nMax-Forwards: 10\r\nVia: 0.9 www.perlaairlines.com\r\nX-Forwarded-For: 115.117.19.54\r\nX-Forwarded-Server: www.perlaairlines.com\r\nConnection: Keep-Alive\r\n\r\n"
+---
+PARAMS: {}
+---
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8000.pid and log/mongrel.8000.log for info.
+** Starting Mongrel listening at 127.0.0.1:8000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:8000
+** Writing PID file to tmp/pids/mongrel.8000.pid
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:46: warning: already initialized constant Messages
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:53: warning: already initialized constant TRANSACTION_SIMPLE_VERSION
+/usr/lib/ruby/gems/1.8/gems/transaction-simple-1.4.0/lib/transaction/simple.rb:436: warning: already initialized constant SKIP_TRANSACTION_VARS

@@ -1,0 +1,32 @@
+<table class ="table table-striped">
+	<h1><%= @wfctripul.nombres %> <%= @wfctripul.apellidos %>  </h1>
+	<tr>
+		<th>Logbook</th>
+		<th>Ruta</th>
+		<th>Fecha Inicio</th>
+		<th>Hora inicio</th>
+		<th>Fecha Fin</th>
+		<th>Hora Fin</th>
+		<th>Tiempo Total</th>
+	</tr>
+	<% for wfcvolado in @wfcvolados -%>
+		<tr>
+			<td><%= wfcvolado.logbook %> </td>
+			<td><%= wfcvolado.origen %>/<%= wfcvolado.destino%> </td>
+			<td><%= wfcvolado.bdiaini %>/<%= wfcvolado.bmesini%>/<%= wfcvolado.banoini %> </td>
+			<% if wfcvolado.bminini < 10 %>
+				<td><%= wfcvolado.bhoraini %> : 0<%= wfcvolado.bminini%></td>
+			<%else%>
+				<td><%= wfcvolado.bhoraini %> : <%= wfcvolado.bminini%></td>
+			<%end%>
+			<td><%= wfcvolado.bdiafin %>/<%= wfcvolado.bmesfin %>/<%= wfcvolado.banofin %> </td>
+			<% if wfcvolado.bminfin < 10 %>
+				<td> <%= wfcvolado.bhorafin %> : 0<%= wfcvolado.bminfin%></td>
+			<%else%>
+				<td> <%= wfcvolado.bhorafin %> : <%= wfcvolado.bminfin%></td>
+			<%end%>
+			<td><%= wfcvolado.total %> </td>
+		</tr>
+	<% end -%>
+</table>
+<!--<%= button_to 'Imprimir PDF',  { :action => 'genpdf', :tripulantes => @wfctripulantes }, :class => 'btn btn-default' %>-->

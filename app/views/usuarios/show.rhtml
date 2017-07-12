@@ -1,0 +1,27 @@
+<p>
+  <b>Nombres:</b> 
+  <%=h @usuario.nombres %>
+</p>
+<p>
+  <b>Apellidos:</b> 
+  <%=h @usuario.apellidos %>
+</p>
+<p>
+  <b>Cedula:</b> 
+  <%=h @usuario.cedula %>
+</p>
+<p>
+  <b>Login:</b> 
+  <%=h @usuario.login %>
+</p>
+<p>
+  <b>Email:</b> 
+  <%=h @usuario.email %>
+</p>
+<p>
+  <b>Permisos Vuelos: </b>
+  <%=h @usuario.controlador %>
+</p>
+
+<%= button_to 'Editar', :action => 'edit', :id => @usuario %>
+<%= button_to 'Listar', :action => 'list' %>

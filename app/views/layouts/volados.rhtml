@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title><%= "SIGEC" %></title>
+   <%= stylesheet_link_tag 'bootstrap' %>
+   <link rel="shortcut icon" href="./favicon.ico?v=2" />
+</head>
+<body>
+  <table class="col-sm-12">
+    <tr>
+      <td>
+    <div class="well container col-sm-12 row" >
+    <div class="col-sm-9">
+      <img src="/images/logo.png" alt="SIGECS14"/>
+    </div>
+    <div class="col-sm-3">
+      <img class="pull-right" src="/images/sigec14.png" alt="SIGEC14"/>
+    </div>
+  </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+<div id="col-sm-12">
+  <table class="table table-bordered">
+  <tr>
+    <td class="col-sm-3">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-heading" >
+            <center><b>Usuario: <%= session[:usuario].login %></b></center>
+          </div>
+          <div class="panel-body">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a id="boton-a" href="/usuarios/logout">Salir</a></li>
+            <li><a id="boton-a" href="/usuarios/cambiapass">Cambiar Password</a></li>
+            <li><a id="boton-a" href="/principal/bienvenida">Menu Principal</a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading" >
+            <center><b>Control de Vuelos</b></center>
+          </div>
+          <div class="panel-body" >
+            <ul class="nav nav-pills nav-stacked">
+              <li><a id="boton-a" href="/FlexApp/WebFControl/WebFControl.html">Programacion de Vuelos</a></li>
+              <li><a id="boton-a" href="/wfcvuelos/listEquipos">Confirmar Vuelos</a></li>
+              <li><a id="boton-a" href="/wfcvuelos/consultahoras">Horas Tripulacion</a></li>
+              <li><a id="boton-a" href="/wfcvuelos/horasequipos">Horas Equipos</a></li>
+              <li><a id="boton-a" href="/wfcvuelos/ciclosequipos">Ciclos Equipos</a></li>
+              <li><a id="boton-a" href="/wfcvolados/list">Hojas Log</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <% if UsLe() -%>
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-heading" >
+            <center><b>Accesos</b></center>
+          </div>
+          <div class="panel-body" >
+            <% if UsLe() -%>
+            <ul class="nav nav-pills nav-stacked">
+              <li><a id="boton-a" href="/usuarios/list">Usuarios</a></li>
+            </ul>
+            <% end -%>
+          </div>
+        </div>
+      </div>
+      <% end -%>
+
+    </td>
+    <td class="col-sm-9"">
+      <div class="well col-sm-12">
+      <%= yield  %>
+      </div>
+    </td>
+
+</tr>
+
+  </table>
+<p id="flash-p"><%= flash[:notice] %></p>
+ </div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

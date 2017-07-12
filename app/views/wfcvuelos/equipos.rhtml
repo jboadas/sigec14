@@ -1,0 +1,14 @@
+<table class="table table-striped">
+	<tr>
+          <th><%= "Siglas" %></th>
+          <th><%= "Modelo" %></th>
+	</tr>
+
+<% for cabequipo in @cabequipos %>
+  <tr>
+    <td><%=cabequipo.nombre%></td>
+    <td><%=cabequipo.Modelo%></td>
+    <td><%= button_to 'Ver Vuelos',  {:action => 'historicoVuelos', :id => cabequipo }, :class => 'btn btn-default' %></td>
+  </tr>
+<% end %>
+</table>

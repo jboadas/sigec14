@@ -1,0 +1,2 @@
+module CabequiposHelper
+end

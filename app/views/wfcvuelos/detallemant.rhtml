@@ -1,0 +1,24 @@
+<table class ="table table-striped">
+  <tr>
+    <th>Fecha</th>
+    <th>Ruta</th>
+    <th>ACFH</th>
+    <th>ACTT</th>
+    <th>ACTC</th>
+    <th>Despegue</th>
+    <th>Aterrizaje</th>
+  </tr>
+<% for repmant in @repmants -%>
+  <tr>
+    <td><%=  repmant[0] %></td>
+    <td><%=  repmant[1]  %></td>
+    <td><%=  repmant[2]  %></td><!-- Horas de Vuelo -->
+    <td><%=  repmant[3]  %></td><!-- Total Horas de Vuelo -->
+    <td><%=  repmant[4]  %></td><!-- Total ciclos -->
+    <td><%=  repmant[5]  %></td><!-- Despegue -->
+    <td><%=  repmant[6]  %></td><!-- Aterrizaje -->
+  </tr>
+<% end -%>
+</table>
+<!--<%= button_to 'Atras',request.env['HTTP_REFERER'] unless request.env['HTTP_REFERER'].nil? %>-->
+<!--<%= button_to 'Imprimir PDF', :action => 'genpdf', :tripulantes => @wfctripulantes %>-->

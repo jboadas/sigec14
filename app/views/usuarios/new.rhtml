@@ -1,0 +1,6 @@
+<% form_tag :action => 'create' do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag "Crear" %>
+<% end %>
+
+<%= button_to 'Listar', :action => 'list' %>

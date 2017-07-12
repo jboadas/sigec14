@@ -1,0 +1,10 @@
+<% form_tag :action => 'update2', :id => @usuario do %>
+	<%= error_messages_for 'usuario' %>
+	<p>
+		<label for='usuario_password'>Nuevo Password: </label>
+		<br/>
+		<%= password_field('usuario','password') %>
+	</p>
+  <%= submit_tag 'Cambiar' %>
+<% end %>
+

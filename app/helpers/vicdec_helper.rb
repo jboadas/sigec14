@@ -1,0 +1,2 @@
+module VicdecHelper
+end

@@ -1,0 +1,52 @@
+<h1 class="page-header">Horas Tripulacion</h1>
+<% if @errorfecha != nil %>
+  <div class="alert alert-warning" role="alert">Error en la fecha para el calculo, por favor revise e intentelo de nuevo</div>
+<% end %>
+
+<% form_tag :action => 'calcularhoras' do %>
+
+      <div class="form-group">
+        <label for="wfcvolado_cabequipo_id">Equipo</label>
+        <%= select( 'wfcvolado', 'cabequipo_id' , @equipos.collect {|eqp| [eqp.nombre, eqp.id]}, {:prompt => 'Todos'},{:class=>"form-control"}) %>
+      </div>
+        <p><label class="page-header">Desde</label></p>
+        <div class="form-group">
+          <div class="col-sm-4">
+          <label for="wfcvolado_diaini">Dia</label>
+          <%= select( 'wfcvolado', 'diaini', @dias, {},{:class=>"form-control"}) %>
+          </div>
+          <div class="col-sm-4">
+          <label for="wfcvolado_mesini">Mes</label>
+          <%= select('wfcvolado', 'mesini', @meses, {},{:class=>"form-control"}) %>
+          </div>
+          <div class="col-sm-4">
+          <label for="wfcvolado_anoini">Año</label>
+          <%= select('wfcvolado', 'anoini', @anios, {},{:class=>"form-control"}) %>
+          </div>
+        </div>
+
+        <p><label class="page-header">Hasta</label></p>
+
+        <div class="form-group">
+          <div class="col-sm-4">
+          <label for="wfcvolado_diafin">Dia</label>
+          <%= select('wfcvolado', 'diafin', @dias, {},{:class=>"form-control"}) %>
+          </div>
+          <div class="col-sm-4">
+
+          <label for="wfcvolado_mesfin">Mes</label>
+          <%= select('wfcvolado', 'mesfin', @meses, {},{:class=>"form-control"}) %>
+          </div>
+          <div class="col-sm-4">
+
+          <label for="wfcvolado_anofin">Año</label>
+          <%= select('wfcvolado', 'anofin', @anios, {},{:class=>"form-control"}) %>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="page-header" for="equipo_serial">Filtrar Tripulante</label>
+          <%= text_field 'wfcvolado', 'log',{:class=>"form-control"}  %>
+        </div>
+
+  <%= submit_tag "Calcular",{:class=>"btn btn-default"} %>
+<% end %>

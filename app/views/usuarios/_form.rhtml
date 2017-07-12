@@ -1,0 +1,26 @@
+<%= error_messages_for 'usuario' %>
+
+<!--[form:usuario]-->
+<p><label for="usuario_nombres">Nombres</label><br/>
+<%= text_field 'usuario', 'nombres'  %></p>
+
+<p><label for="usuario_apellidos">Apellidos</label><br/>
+<%= text_field 'usuario', 'apellidos'  %></p>
+
+<p><label for="usuario_cedula">Cedula</label><br/>
+<%= text_field 'usuario', 'cedula'  %></p>
+
+<p><label for="usuario_login">Login</label><br/>
+<%= text_field 'usuario', 'login'  %></p>
+
+<p><label for="usuario_password">Password</label><br/>
+<%= password_field 'usuario', 'password'  %></p>
+
+<p><label for="usuario_email">Email</label><br/>
+<%= text_field 'usuario', 'email'  %></p>
+
+<p><label for="usuario_controlador">Acceso Vuelos</label>
+<%= select('usuario', 'controlador', @accvuelos) %></p>
+
+<!--[eoform:usuario]-->
+

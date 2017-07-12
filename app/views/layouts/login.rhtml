@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title><%= "Login" %></title>
+   <%= stylesheet_link_tag 'bootstrap' %>
+   <link rel="shortcut icon" href="./favicon.ico?v=2" />
+</head>
+<body>
+  <div class="jumbotron" >
+    <center>
+      <img id="img-img" src="/images/logo.png" alt="SIGEC14"/>
+    </center>
+  </div>
+  <div class="col-md-offset-4 col-sm-4">
+  <div class="panel panel-default">
+    <div class="panel-body">
+    <div class="well form-group">
+      <%= yield  %>
+    </div>
+    </div>
+    <div class="panel-footer" id="flash-p"><%= flash[:notice] %></div>
+ </div>
+ </div>
+</body>
+</html>

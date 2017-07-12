@@ -1,0 +1,26 @@
+	<table class="table table-striped">
+		<tr>
+			<th><%= "LogBook#" %></th>
+			<th><%= "Equipo" %></th>
+			<th><%= "Fecha" %></th>
+			<th><%= "Tiempo de vuelo" %></th>
+			<th><%= "Ruta" %></th>
+		</tr>
+
+
+		<% for wfcvolado in @wfcvolados %>
+			<tr>
+				<td><%= wfcvolado.logbook %></td>
+				<td><%= @equipo.nombre %></td>
+				<td><%= ancer(wfcvolado.diaini) %>/<%=  ancer(wfcvolado.mesini) %>/<%= wfcvolado.anoini %></td>
+				<% fechaini = DateTime.new(wfcvolado.anoini, wfcvolado.mesini, wfcvolado.diaini, wfcvolado.horaini, wfcvolado.minini)
+				fechafin = DateTime.new(wfcvolado.anofin, wfcvolado.mesfin, wfcvolado.diafin, wfcvolado.horafin, wfcvolado.minfin)	
+				diferencia = fechafin-fechaini
+				hours,minutes,seconds,frac = Date.day_fraction_to_time(diferencia)%>
+			<td><%= ancer(hours) %> : <%= ancer(minutes) %> </td>
+			<td><%= wfcvolado.origen %> / <%= wfcvolado.destino %> </td>
+			<td><%= link_to 'Detalle',  { :action => 'show', :id => wfcvolado }, :class => 'btn btn-default' %></td>
+			<td><%= link_to 'Editar', { :controller => 'wfcvuelos', :action => 'confirmar', :id => wfcvolado }, :class => 'btn btn-default' %></td>
+		</tr>
+	<% end %>
+	</table>
